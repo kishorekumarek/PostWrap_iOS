@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4E76871C696D750088F938 /* PWFitWidthAlgoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E76861C696D750088F938 /* PWFitWidthAlgoObject.m */; };
+		1A4E768B1C696DB50088F938 /* PWAscendingFWObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E768A1C696DB50088F938 /* PWAscendingFWObject.m */; };
+		1A4E768E1C69B0B30088F938 /* UIFont+WidthAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E768D1C69B0B30088F938 /* UIFont+WidthAdditions.m */; };
+		1A4E77261C69FB6E0088F938 /* NSString+BoundingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E77251C69FB6E0088F938 /* NSString+BoundingRect.m */; };
+		1ACB69D21C6FBC9400272655 /* PWDescendingFWObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB69D11C6FBC9400272655 /* PWDescendingFWObject.m */; };
+		1ACB69D61C6FC88700272655 /* PWAscAndDescCombinedFWObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB69D51C6FC88700272655 /* PWAscAndDescCombinedFWObject.m */; };
+		1ACB69DC1C6FC9FC00272655 /* NSArray+ReversedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB69DB1C6FC9FC00272655 /* NSArray+ReversedArray.m */; };
+		1ACB69DF1C6FD23B00272655 /* PWUniformFontObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB69DE1C6FD23B00272655 /* PWUniformFontObject.m */; };
 		2BC70BE81C1BEA43007E017B /* Randomness.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC70BE71C1BEA43007E017B /* Randomness.m */; };
 		2BC70BEB1C1C0C5E007E017B /* PWEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC70BEA1C1C0C5E007E017B /* PWEditView.m */; };
 		F2195B6A1C06227700BD5D67 /* PWTextInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2195B681C06227700BD5D67 /* PWTextInputTableViewCell.m */; };
@@ -46,6 +54,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A4E76851C696D750088F938 /* PWFitWidthAlgoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PWFitWidthAlgoObject.h; path = PWFitWidthAlgoClasses/PWFitWidthAlgoObject.h; sourceTree = "<group>"; };
+		1A4E76861C696D750088F938 /* PWFitWidthAlgoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PWFitWidthAlgoObject.m; path = PWFitWidthAlgoClasses/PWFitWidthAlgoObject.m; sourceTree = "<group>"; };
+		1A4E76891C696DB50088F938 /* PWAscendingFWObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PWAscendingFWObject.h; path = PWFitWidthAlgoClasses/AscendingFW/PWAscendingFWObject.h; sourceTree = "<group>"; };
+		1A4E768A1C696DB50088F938 /* PWAscendingFWObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PWAscendingFWObject.m; path = PWFitWidthAlgoClasses/AscendingFW/PWAscendingFWObject.m; sourceTree = "<group>"; };
+		1A4E768C1C69B0B30088F938 /* UIFont+WidthAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+WidthAdditions.h"; path = "PWFitWidthAlgoClasses/UIFont+WidthAdditions.h"; sourceTree = "<group>"; };
+		1A4E768D1C69B0B30088F938 /* UIFont+WidthAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+WidthAdditions.m"; path = "PWFitWidthAlgoClasses/UIFont+WidthAdditions.m"; sourceTree = "<group>"; };
+		1A4E77241C69FB6E0088F938 /* NSString+BoundingRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+BoundingRect.h"; path = "PWFitWidthAlgoClasses/NSString+BoundingRect.h"; sourceTree = "<group>"; };
+		1A4E77251C69FB6E0088F938 /* NSString+BoundingRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+BoundingRect.m"; path = "PWFitWidthAlgoClasses/NSString+BoundingRect.m"; sourceTree = "<group>"; };
+		1ACB69D01C6FBC9400272655 /* PWDescendingFWObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PWDescendingFWObject.h; path = PWFitWidthAlgoClasses/DescendingFW/PWDescendingFWObject.h; sourceTree = "<group>"; };
+		1ACB69D11C6FBC9400272655 /* PWDescendingFWObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PWDescendingFWObject.m; path = PWFitWidthAlgoClasses/DescendingFW/PWDescendingFWObject.m; sourceTree = "<group>"; };
+		1ACB69D41C6FC88700272655 /* PWAscAndDescCombinedFWObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PWAscAndDescCombinedFWObject.h; path = PWFitWidthAlgoClasses/AscAndDescCombined/PWAscAndDescCombinedFWObject.h; sourceTree = "<group>"; };
+		1ACB69D51C6FC88700272655 /* PWAscAndDescCombinedFWObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PWAscAndDescCombinedFWObject.m; path = PWFitWidthAlgoClasses/AscAndDescCombined/PWAscAndDescCombinedFWObject.m; sourceTree = "<group>"; };
+		1ACB69DA1C6FC9FC00272655 /* NSArray+ReversedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ReversedArray.h"; sourceTree = "<group>"; };
+		1ACB69DB1C6FC9FC00272655 /* NSArray+ReversedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ReversedArray.m"; sourceTree = "<group>"; };
+		1ACB69DD1C6FD23B00272655 /* PWUniformFontObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PWUniformFontObject.h; path = PWFitWidthAlgoClasses/UniformFont/PWUniformFontObject.h; sourceTree = "<group>"; };
+		1ACB69DE1C6FD23B00272655 /* PWUniformFontObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PWUniformFontObject.m; path = PWFitWidthAlgoClasses/UniformFont/PWUniformFontObject.m; sourceTree = "<group>"; };
 		2BC70BE61C1BEA43007E017B /* Randomness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Randomness.h; path = Model/Randomness.h; sourceTree = "<group>"; };
 		2BC70BE71C1BEA43007E017B /* Randomness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Randomness.m; path = Model/Randomness.m; sourceTree = "<group>"; };
 		2BC70BE91C1C0C5E007E017B /* PWEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEditView.h; sourceTree = "<group>"; };
@@ -108,6 +132,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A4E76841C696D230088F938 /* FitWidthAlgoClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1A4E76851C696D750088F938 /* PWFitWidthAlgoObject.h */,
+				1A4E76861C696D750088F938 /* PWFitWidthAlgoObject.m */,
+				1ACB69DD1C6FD23B00272655 /* PWUniformFontObject.h */,
+				1ACB69DE1C6FD23B00272655 /* PWUniformFontObject.m */,
+				1ACB69D31C6FC79400272655 /* AscAndDescCombined */,
+				1ACB69CF1C6FBC5F00272655 /* DescendingFW */,
+				1A4E76881C696D7C0088F938 /* AscendingFW */,
+				1A4E768C1C69B0B30088F938 /* UIFont+WidthAdditions.h */,
+				1A4E768D1C69B0B30088F938 /* UIFont+WidthAdditions.m */,
+				1A4E77241C69FB6E0088F938 /* NSString+BoundingRect.h */,
+				1A4E77251C69FB6E0088F938 /* NSString+BoundingRect.m */,
+				1ACB69DA1C6FC9FC00272655 /* NSArray+ReversedArray.h */,
+				1ACB69DB1C6FC9FC00272655 /* NSArray+ReversedArray.m */,
+			);
+			name = FitWidthAlgoClasses;
+			sourceTree = "<group>";
+		};
+		1A4E76881C696D7C0088F938 /* AscendingFW */ = {
+			isa = PBXGroup;
+			children = (
+				1A4E76891C696DB50088F938 /* PWAscendingFWObject.h */,
+				1A4E768A1C696DB50088F938 /* PWAscendingFWObject.m */,
+			);
+			name = AscendingFW;
+			sourceTree = "<group>";
+		};
+		1ACB69CF1C6FBC5F00272655 /* DescendingFW */ = {
+			isa = PBXGroup;
+			children = (
+				1ACB69D01C6FBC9400272655 /* PWDescendingFWObject.h */,
+				1ACB69D11C6FBC9400272655 /* PWDescendingFWObject.m */,
+			);
+			name = DescendingFW;
+			sourceTree = "<group>";
+		};
+		1ACB69D31C6FC79400272655 /* AscAndDescCombined */ = {
+			isa = PBXGroup;
+			children = (
+				1ACB69D41C6FC88700272655 /* PWAscAndDescCombinedFWObject.h */,
+				1ACB69D51C6FC88700272655 /* PWAscAndDescCombinedFWObject.m */,
+			);
+			name = AscAndDescCombined;
+			sourceTree = "<group>";
+		};
 		2BC70BE51C1BEA16007E017B /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +233,7 @@
 				F26396E61C0799640001C78D /* PWEditViewController.m */,
 				2BC70BE91C1C0C5E007E017B /* PWEditView.h */,
 				2BC70BEA1C1C0C5E007E017B /* PWEditView.m */,
+				1A4E76841C696D230088F938 /* FitWidthAlgoClasses */,
 			);
 			path = PostWrap;
 			sourceTree = "<group>";
@@ -328,13 +400,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2468D701C04EBFB0056D0D8 /* ViewController.m in Sources */,
+				1A4E77261C69FB6E0088F938 /* NSString+BoundingRect.m in Sources */,
+				1A4E76871C696D750088F938 /* PWFitWidthAlgoObject.m in Sources */,
+				1ACB69D61C6FC88700272655 /* PWAscAndDescCombinedFWObject.m in Sources */,
+				1A4E768B1C696DB50088F938 /* PWAscendingFWObject.m in Sources */,
 				F2468D761C04EBFB0056D0D8 /* PostWrap.xcdatamodeld in Sources */,
+				1ACB69DF1C6FD23B00272655 /* PWUniformFontObject.m in Sources */,
 				F23714881C21E883005386D8 /* PWTextView.m in Sources */,
 				F2468D6D1C04EBFB0056D0D8 /* AppDelegate.m in Sources */,
 				F2468D6A1C04EBFB0056D0D8 /* main.m in Sources */,
 				2BC70BE81C1BEA43007E017B /* Randomness.m in Sources */,
 				F2195B6A1C06227700BD5D67 /* PWTextInputTableViewCell.m in Sources */,
+				1A4E768E1C69B0B30088F938 /* UIFont+WidthAdditions.m in Sources */,
+				1ACB69DC1C6FC9FC00272655 /* NSArray+ReversedArray.m in Sources */,
 				F26396E71C0799640001C78D /* PWEditViewController.m in Sources */,
+				1ACB69D21C6FBC9400272655 /* PWDescendingFWObject.m in Sources */,
 				2BC70BEB1C1C0C5E007E017B /* PWEditView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -69,6 +69,21 @@
     self.textView.random = self.randomObject;
     self.textView.drawBorder = self.drawBorder;
     self.textView.posterText = self.posterText;
+
+    static int i = 0;
+    i++;
+    if(i % 5 == 0) {
+        [self.textView createAscAlgoObject];
+
+    }else if (i % 4 == 0) {
+        [self.textView createDescAlgoObject];
+
+    }else if (i % 3 == 0) {
+        [self.textView createAscAndDescCombinedObject];
+    }else {
+        [self.textView createUniformFontAlgoObject];
+
+    }
     self.textView.backgroundColor = [UIColor clearColor];
     
     [self addSubview:self.textView];

@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "Randomness.h"
+#import "PWFitWidthAlgoClasses/PWFitWidthAlgoObject.h"
 
-@interface PWTextView : UIView <UIGestureRecognizerDelegate>
+@interface PWTextView : UIView <UIGestureRecognizerDelegate,PosterDrawingDelegate>
 
 @property(nonatomic,strong)Randomness *random;
 @property(nonatomic,strong)NSString *posterText;
@@ -18,5 +19,8 @@
 - (IBAction) imageMoved:(id) sender withEvent:(UIEvent *) event;
 
 -(void)drawBorderForRect;
-
+- (void)createAscAlgoObject;
+-(void)createDescAlgoObject;
+- (void)createAscAndDescCombinedObject;
+- (void)createUniformFontAlgoObject;
 @end
