@@ -24,12 +24,12 @@
 		F2468D6A1C04EBFB0056D0D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2468D691C04EBFB0056D0D8 /* main.m */; };
 		F2468D6D1C04EBFB0056D0D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2468D6C1C04EBFB0056D0D8 /* AppDelegate.m */; };
 		F2468D701C04EBFB0056D0D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2468D6F1C04EBFB0056D0D8 /* ViewController.m */; };
-		F2468D731C04EBFB0056D0D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2468D711C04EBFB0056D0D8 /* Main.storyboard */; };
 		F2468D761C04EBFB0056D0D8 /* PostWrap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2468D741C04EBFB0056D0D8 /* PostWrap.xcdatamodeld */; };
-		F2468D781C04EBFB0056D0D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2468D771C04EBFB0056D0D8 /* Assets.xcassets */; };
 		F2468D7B1C04EBFB0056D0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2468D791C04EBFB0056D0D8 /* LaunchScreen.storyboard */; };
 		F2468D861C04EBFB0056D0D8 /* PostWrapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2468D851C04EBFB0056D0D8 /* PostWrapTests.m */; };
 		F2468D911C04EBFC0056D0D8 /* PostWrapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2468D901C04EBFC0056D0D8 /* PostWrapUITests.m */; };
+		F25CB7211C73520000FEE56C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25CB7201C73520000FEE56C /* Main.storyboard */; };
+		F25CB7231C73529F00FEE56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25CB7221C73529F00FEE56C /* Assets.xcassets */; };
 		F26396E71C0799640001C78D /* PWEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26396E61C0799640001C78D /* PWEditViewController.m */; };
 		F26397521C09C6440001C78D /* Test.png in Resources */ = {isa = PBXBuildFile; fileRef = F26397511C09C6440001C78D /* Test.png */; };
 		F26397541C0B4C950001C78D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26397531C0B4C950001C78D /* CoreGraphics.framework */; };
@@ -86,9 +86,7 @@
 		F2468D6C1C04EBFB0056D0D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F2468D6E1C04EBFB0056D0D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F2468D6F1C04EBFB0056D0D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F2468D721C04EBFB0056D0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2468D751C04EBFB0056D0D8 /* PostWrap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostWrap.xcdatamodel; sourceTree = "<group>"; };
-		F2468D771C04EBFB0056D0D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2468D7A1C04EBFB0056D0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2468D7C1C04EBFB0056D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2468D811C04EBFB0056D0D8 /* PostWrapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostWrapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +95,8 @@
 		F2468D8C1C04EBFC0056D0D8 /* PostWrapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostWrapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2468D901C04EBFC0056D0D8 /* PostWrapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostWrapUITests.m; sourceTree = "<group>"; };
 		F2468D921C04EBFC0056D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25CB7201C73520000FEE56C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F25CB7221C73529F00FEE56C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26396E51C0799640001C78D /* PWEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEditViewController.h; sourceTree = "<group>"; };
 		F26396E61C0799640001C78D /* PWEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEditViewController.m; sourceTree = "<group>"; };
 		F26397511C09C6440001C78D /* Test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Test.png; sourceTree = "<group>"; };
@@ -219,8 +219,8 @@
 				F2468D6C1C04EBFB0056D0D8 /* AppDelegate.m */,
 				F2468D6E1C04EBFB0056D0D8 /* ViewController.h */,
 				F2468D6F1C04EBFB0056D0D8 /* ViewController.m */,
-				F2468D711C04EBFB0056D0D8 /* Main.storyboard */,
-				F2468D771C04EBFB0056D0D8 /* Assets.xcassets */,
+				F25CB7201C73520000FEE56C /* Main.storyboard */,
+				F25CB7221C73529F00FEE56C /* Assets.xcassets */,
 				F26397511C09C6440001C78D /* Test.png */,
 				F2468D791C04EBFB0056D0D8 /* LaunchScreen.storyboard */,
 				F2468D7C1C04EBFB0056D0D8 /* Info.plist */,
@@ -371,10 +371,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2195B6B1C06227700BD5D67 /* PWTextInputTableViewCell.xib in Resources */,
+				F25CB7211C73520000FEE56C /* Main.storyboard in Resources */,
 				F2468D7B1C04EBFB0056D0D8 /* LaunchScreen.storyboard in Resources */,
 				F26397521C09C6440001C78D /* Test.png in Resources */,
-				F2468D781C04EBFB0056D0D8 /* Assets.xcassets in Resources */,
-				F2468D731C04EBFB0056D0D8 /* Main.storyboard in Resources */,
+				F25CB7231C73529F00FEE56C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,14 +451,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2468D711C04EBFB0056D0D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2468D721C04EBFB0056D0D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2468D791C04EBFB0056D0D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
