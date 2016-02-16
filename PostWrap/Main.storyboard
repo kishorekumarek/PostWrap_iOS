@@ -37,8 +37,8 @@
                                 </constraints>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="OV5-aw-sT4"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="t47-Da-Tno"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="z6F-Dv-QWe"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ntm-Q7-Fst"/>
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrj-vX-YAU">
@@ -97,8 +97,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="contentImageView" destination="3em-8l-ZMe" id="gpL-GF-U7z"/>
-                        <outlet property="tableView" destination="aAH-d2-OSG" id="zS8-OA-wmI"/>
+                        <outlet property="contentImageView" destination="3em-8l-ZMe" id="bzQ-I6-qcL"/>
+                        <outlet property="tableView" destination="aAH-d2-OSG" id="6Ki-KO-14M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

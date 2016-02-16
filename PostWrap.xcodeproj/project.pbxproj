@@ -18,7 +18,6 @@
 		2BC70BE81C1BEA43007E017B /* Randomness.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC70BE71C1BEA43007E017B /* Randomness.m */; };
 		2BC70BEB1C1C0C5E007E017B /* PWEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC70BEA1C1C0C5E007E017B /* PWEditView.m */; };
 		F2195B6A1C06227700BD5D67 /* PWTextInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2195B681C06227700BD5D67 /* PWTextInputTableViewCell.m */; };
-		F2195B6B1C06227700BD5D67 /* PWTextInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2195B691C06227700BD5D67 /* PWTextInputTableViewCell.xib */; };
 		F2195B6D1C062AC300BD5D67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2195B6C1C062AC300BD5D67 /* QuartzCore.framework */; };
 		F23714881C21E883005386D8 /* PWTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F23714871C21E883005386D8 /* PWTextView.m */; };
 		F2468D6A1C04EBFB0056D0D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2468D691C04EBFB0056D0D8 /* main.m */; };
@@ -30,6 +29,7 @@
 		F2468D911C04EBFC0056D0D8 /* PostWrapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2468D901C04EBFC0056D0D8 /* PostWrapUITests.m */; };
 		F25CB7211C73520000FEE56C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25CB7201C73520000FEE56C /* Main.storyboard */; };
 		F25CB7231C73529F00FEE56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25CB7221C73529F00FEE56C /* Assets.xcassets */; };
+		F25CB7251C7355E100FEE56C /* PWTextInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25CB7241C7355E100FEE56C /* PWTextInputTableViewCell.xib */; };
 		F26396E71C0799640001C78D /* PWEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26396E61C0799640001C78D /* PWEditViewController.m */; };
 		F26397521C09C6440001C78D /* Test.png in Resources */ = {isa = PBXBuildFile; fileRef = F26397511C09C6440001C78D /* Test.png */; };
 		F26397541C0B4C950001C78D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26397531C0B4C950001C78D /* CoreGraphics.framework */; };
@@ -76,7 +76,6 @@
 		2BC70BEA1C1C0C5E007E017B /* PWEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEditView.m; sourceTree = "<group>"; };
 		F2195B671C06227700BD5D67 /* PWTextInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWTextInputTableViewCell.h; sourceTree = "<group>"; };
 		F2195B681C06227700BD5D67 /* PWTextInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWTextInputTableViewCell.m; sourceTree = "<group>"; };
-		F2195B691C06227700BD5D67 /* PWTextInputTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PWTextInputTableViewCell.xib; sourceTree = "<group>"; };
 		F2195B6C1C062AC300BD5D67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F23714861C21E883005386D8 /* PWTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWTextView.h; sourceTree = "<group>"; };
 		F23714871C21E883005386D8 /* PWTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWTextView.m; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		F2468D921C04EBFC0056D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F25CB7201C73520000FEE56C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F25CB7221C73529F00FEE56C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F25CB7241C7355E100FEE56C /* PWTextInputTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PWTextInputTableViewCell.xib; sourceTree = "<group>"; };
 		F26396E51C0799640001C78D /* PWEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWEditViewController.h; sourceTree = "<group>"; };
 		F26396E61C0799640001C78D /* PWEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWEditViewController.m; sourceTree = "<group>"; };
 		F26397511C09C6440001C78D /* Test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Test.png; sourceTree = "<group>"; };
@@ -228,7 +228,7 @@
 				F2468D681C04EBFB0056D0D8 /* Supporting Files */,
 				F2195B671C06227700BD5D67 /* PWTextInputTableViewCell.h */,
 				F2195B681C06227700BD5D67 /* PWTextInputTableViewCell.m */,
-				F2195B691C06227700BD5D67 /* PWTextInputTableViewCell.xib */,
+				F25CB7241C7355E100FEE56C /* PWTextInputTableViewCell.xib */,
 				F26396E51C0799640001C78D /* PWEditViewController.h */,
 				F26396E61C0799640001C78D /* PWEditViewController.m */,
 				2BC70BE91C1C0C5E007E017B /* PWEditView.h */,
@@ -370,8 +370,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2195B6B1C06227700BD5D67 /* PWTextInputTableViewCell.xib in Resources */,
 				F25CB7211C73520000FEE56C /* Main.storyboard in Resources */,
+				F25CB7251C7355E100FEE56C /* PWTextInputTableViewCell.xib in Resources */,
 				F2468D7B1C04EBFB0056D0D8 /* LaunchScreen.storyboard in Resources */,
 				F26397521C09C6440001C78D /* Test.png in Resources */,
 				F25CB7231C73529F00FEE56C /* Assets.xcassets in Resources */,
