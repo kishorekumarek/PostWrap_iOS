@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PWTextInputTableViewCell.h"
 
-@interface ViewController : UIViewController<UIGestureRecognizerDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIPickerViewDelegate>
+@interface ViewController : UIViewController<UIGestureRecognizerDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIPickerViewDelegate,UITableViewDataSource,UITableViewDelegate,UITextViewDelegate>
 
 
 @end
