@@ -54,7 +54,7 @@ UIButton *upperRightButton;
    
     self.layer.borderWidth = 1.0;
     self.layer.borderColor = [UIColor yellowColor].CGColor;
-    
+    self.userInteractionEnabled = NO;
     return self;
 }
 -(void)createAscAlgoObject {
