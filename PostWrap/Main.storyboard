@@ -48,6 +48,9 @@
                                     <constraint firstAttribute="height" constant="39" id="m4h-eT-D5y"/>
                                 </constraints>
                                 <state key="normal" image="arrowGo"/>
+                                <connections>
+                                    <segue destination="2pr-nQ-qw1" kind="show" identifier="showEditScreen" id="caG-zi-LUc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.5725490196078431" green="0.81568627450980391" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>

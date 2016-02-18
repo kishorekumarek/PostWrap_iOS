@@ -92,6 +92,8 @@ int rowCount = 1;
 
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    PWTextInputTableViewCell *textInputTableViewCell = [tableView cellForRowAtIndexPath:indexPath];
+    textInputTableViewCell.inputTextView.text = @"Enter your text here";
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         rowCount --;
         //    [self.inputArray removeObjectAtIndex:indexPath.row];
@@ -110,14 +112,13 @@ int rowCount = 1;
     
     //   NSString * textToAdd =
     
-    [self.inputArray removeObject:textView.text];
+//    [self.inputArray removeObject:textView.text];
     
 }
 
 
 -(IBAction)addButtonPressed:(id)sender{
     
-    NSLog(@"%@ text",self.textInputTableViewCell.inputTextView.text);
     
     
     if (rowCount < 3) {
@@ -125,6 +126,10 @@ int rowCount = 1;
         [self.tableView beginUpdates];
         
         NSArray *paths = [NSArray arrayWithObject:[NSIndexPath indexPathForRow:rowCount-1 inSection:0]];
+        //to do
+        //This is not working - need to find
+//        PWTextInputTableViewCell *textInputTableViewCell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:rowCount-1 inSection:0]];
+//        textInputTableViewCell.inputTextView.text = @"Enter your text here";
         
         //    [self.tableView insertRowsAtIndexPaths:paths withRowAnimation:UITableViewRowAnimationFade];
         [self.tableView insertRowsAtIndexPaths:paths withRowAnimation:UITableViewRowAnimationFade];
@@ -222,8 +227,12 @@ int rowCount = 1;
     if ([segue.identifier isEqualToString:@"showEditScreen"])
     {
         PWEditViewController *editViewController = segue.destinationViewController;
-        editViewController.bgImage = self.contentImageView.image;
-        editViewController.textArray = [[NSMutableArray alloc]initWithObjects:self.contentTextView.text, nil];
+     //   editViewController.bgImage = self.contentImageView.image;
+        editViewController.textArray = [[NSMutableArray alloc]init];
+        for (int i =0; i < rowCount ; i++) {
+             PWTextInputTableViewCell *textInputTableViewCell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:i inSection:0]];
+            [editViewController.textArray addObject:textInputTableViewCell.inputTextView.text];
+        }
     } }
 
 @end
